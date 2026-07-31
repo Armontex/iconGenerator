@@ -7552,6 +7552,15 @@
            url="https://github.com/stevedonovan/Lake"
            icon="/icons/files/lakefile.svg"
            defaultState="false"/>
+    <regex fileNames="lychee.toml,.lycheeignore"
+           name="Lychee"
+           iconColor="FF1999"
+           url="https://lychee.cli.rs/"
+           priority="100"
+           iconType="FILE"
+           pattern="^(lychee\.toml|\.lycheeignore)$"
+           icon="/icons/files/lychee.svg"
+           defaultState="false"/>
     <regex fileNames="*.ocrec,*.crec"
            name="Lync"
            iconColor="42A5F5"
