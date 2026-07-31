@@ -63,15 +63,15 @@
                pattern="^[\._]?(addons?|addins)$"
                icon="/addon.svg"/>
         <regex
-            folderNames="admin,_admin,.admin,.admins,admins,manager,managers,_managers,moderator,.moderator,moderators,_moderators"
-            name="Admin"
-            folderColor="00ad9f"
-            folderIconColor="b3e6e2"
-            priority="100"
-            iconType="FOLDER"
-            pattern="^[\._]?(admins?|managers?|moderators?)$"
-            icon="/admin.svg"
-            defaultState="false"/>
+                folderNames="admin,_admin,.admin,.admins,admins,manager,managers,_managers,moderator,.moderator,moderators,_moderators"
+                name="Admin"
+                folderColor="00ad9f"
+                folderIconColor="b3e6e2"
+                priority="100"
+                iconType="FOLDER"
+                pattern="^[\._]?(admins?|managers?|moderators?)$"
+                icon="/admin.svg"
+                defaultState="false"/>
         <regex folderNames="adr,adrs,.adr,decision,decisions,.decision,.decisions,_decision,_decisions"
                name="ADR"
                folderColor="0277BD"
@@ -143,25 +143,25 @@
                icon="/angular.svg"
                defaultState="false"/>
         <regex
-            folderNames="animation,animations,anims,anim,.anim,_anim,.animations,_animation,animated,.animated,_animated,motions,.motions,transition,.transitions,_transitions,easings,.easing,houdini,.houdini,greensock,.greensock"
-            name="Animations"
-            folderColor="ec407a"
-            folderIconColor="f8bbd0"
-            priority="100"
-            iconType="FOLDER"
-            defaultState="false"
-            pattern="^[\._]?(animations?|anims?|animated|motions?|transitions?|easings?|houdini|greensock)$"
-            icon="/animations.svg"/>
+                folderNames="animation,animations,anims,anim,.anim,_anim,.animations,_animation,animated,.animated,_animated,motions,.motions,transition,.transitions,_transitions,easings,.easing,houdini,.houdini,greensock,.greensock"
+                name="Animations"
+                folderColor="ec407a"
+                folderIconColor="f8bbd0"
+                priority="100"
+                iconType="FOLDER"
+                defaultState="false"
+                pattern="^[\._]?(animations?|anims?|animated|motions?|transitions?|easings?|houdini|greensock)$"
+                icon="/animations.svg"/>
         <regex
-            folderNames="group_vars,host_vars,vars,roles,.group_vars,_roles,_host_vars,.vars,_playbooks,playbooks,ansible,_ansible,.ansible,collections"
-            name="Ansible"
-            folderColor="ef5350"
-            folderIconColor="ffcdd2"
-            priority="100"
-            iconType="FOLDER"
-            pattern="^[\._]?(group_vars|host_vars|vars|roles|playbooks|ansible|collections)$"
-            icon="/ansible.svg"
-            defaultState="false"/>
+                folderNames="group_vars,host_vars,vars,roles,.group_vars,_roles,_host_vars,.vars,_playbooks,playbooks,ansible,_ansible,.ansible,collections"
+                name="Ansible"
+                folderColor="ef5350"
+                folderIconColor="ffcdd2"
+                priority="100"
+                iconType="FOLDER"
+                pattern="^[\._]?(group_vars|host_vars|vars|roles|playbooks|ansible|collections)$"
+                icon="/ansible.svg"
+                defaultState="false"/>
         <regex folderNames=".api,.apis,.rest,api,apis,rest,_api,parsers,.parsers,_parsers"
                name="Api"
                folderColor="FFF176"
@@ -429,15 +429,15 @@
                icon="/cake.svg"
                defaultState="false"/>
         <regex
-            folderNames="cart,carts,.cart,.carts,_cart,shop,shops,.shop,basket,baskets,_basket,.baskets,marketing,.marketing,products,.products,sku,skus,.sku,.skus"
-            name="Cart"
-            folderColor="FFA000"
-            folderIconColor="FFECB3"
-            priority="100"
-            iconType="FOLDER"
-            pattern="^[\._]?(carts?|shops?|baskets?|marketing|products?|skus?)$"
-            icon="/cart.svg"
-            defaultState="false"/>
+                folderNames="cart,carts,.cart,.carts,_cart,shop,shops,.shop,basket,baskets,_basket,.baskets,marketing,.marketing,products,.products,sku,skus,.sku,.skus"
+                name="Cart"
+                folderColor="FFA000"
+                folderIconColor="FFECB3"
+                priority="100"
+                iconType="FOLDER"
+                pattern="^[\._]?(carts?|shops?|baskets?|marketing|products?|skus?)$"
+                icon="/cart.svg"
+                defaultState="false"/>
         <regex folderNames="channel,channels,.channel,_channels"
                name="Channels"
                folderColor="673AB7"
@@ -447,14 +447,14 @@
                pattern="^[\._]?(channels?)$"
                icon="/channels.svg"/>
         <regex
-            folderNames="graph,graphs,.graph,_graphs,metric,metrics,.metric,_metrics,analytics,.analytics,_analytics,d3,.d3,_d3"
-            name="Charts"
-            folderColor="FFA726"
-            folderIconColor="FFF8E1"
-            priority="100"
-            iconType="FOLDER"
-            pattern="^[\._]?(graphs?|d3|metrics?|analytics?)$"
-            icon="/charts.svg"/>
+                folderNames="graph,graphs,.graph,_graphs,metric,metrics,.metric,_metrics,analytics,.analytics,_analytics,d3,.d3,_d3"
+                name="Charts"
+                folderColor="FFA726"
+                folderIconColor="FFF8E1"
+                priority="100"
+                iconType="FOLDER"
+                pattern="^[\._]?(graphs?|d3|metrics?|analytics?)$"
+                icon="/charts.svg"/>
         <regex folderNames=".chef,chef,recipe,recipes,_chef,.recipes,_recipe"
                name="Chef"
                folderColor="EA7130"
@@ -536,14 +536,14 @@
                icon="/codesandbox.svg"
                defaultState="false"/>
         <regex
-            folderNames="component,components,widget,widgets,element,elements,ui,.components,_widget,.widgets,.elements,directive,.directives,_directives"
-            name="Components"
-            folderColor="F9A825"
-            folderIconColor="FFECB3"
-            priority="100"
-            iconType="FOLDER"
-            pattern="^[\._]?(components?|widgets?|elements?|directives?)$"
-            icon="/components.svg"/>
+                folderNames="component,components,widget,widgets,element,elements,ui,.components,_widget,.widgets,.elements,directive,.directives,_directives"
+                name="Components"
+                folderColor="F9A825"
+                folderIconColor="FFECB3"
+                priority="100"
+                iconType="FOLDER"
+                pattern="^[\._]?(components?|widgets?|elements?|directives?)$"
+                icon="/components.svg"/>
         <regex folderNames="composer,.composer,_composer"
                name="Composer"
                folderColor="F9A825"
@@ -562,14 +562,14 @@
                icon="/conductor.svg"
                defaultState="false"/>
         <regex
-            folderNames="cfg,.cfg,_cfg,config,conf,settings,.config,.conf,.settings,_config,_conf,_settings,configuration,.configuration,.configs,_setting,.option,options,pref,.prefs,preferences,_preferences"
-            name="Config"
-            folderColor="00ACC1"
-            folderIconColor="80DEEA"
-            priority="100"
-            iconType="FOLDER"
-            pattern="^[\._]?(cfg|configs?|conf(iguration)?|settings?|options?|preferences?|prefs?)$"
-            icon="/config.svg"/>
+                folderNames="cfg,.cfg,_cfg,config,conf,settings,.config,.conf,.settings,_config,_conf,_settings,configuration,.configuration,.configs,_setting,.option,options,pref,.prefs,preferences,_preferences"
+                name="Config"
+                folderColor="00ACC1"
+                folderIconColor="80DEEA"
+                priority="100"
+                iconType="FOLDER"
+                pattern="^[\._]?(cfg|configs?|conf(iguration)?|settings?|options?|preferences?|prefs?)$"
+                icon="/config.svg"/>
         <regex folderNames="connect,_connect,connection,.connections,_connections,rel,.rel,_relation,relations,.relations,
         link,.link,links,_links"
                name="Connection"
@@ -839,14 +839,14 @@
                pattern="^[\._]?(docker|dockerfiles|dockerhub)$"
                icon="/docker.svg"/>
         <regex
-            folderNames="doc,docs,documentation,.doc,_doc,_docs,.documentation,text,texts,.texts,_text,forms,forms,.forms,_forms"
-            name="Docs"
-            folderColor="0277bd"
-            folderIconColor="b3e5fc"
-            priority="100"
-            iconType="FOLDER"
-            pattern="^[\._]?(docs?|documentation|texts?|forms?)$"
-            icon="/docs.svg"/>
+                folderNames="doc,docs,documentation,.doc,_doc,_docs,.documentation,text,texts,.texts,_text,forms,forms,.forms,_forms"
+                name="Docs"
+                folderColor="0277bd"
+                folderIconColor="b3e5fc"
+                priority="100"
+                iconType="FOLDER"
+                pattern="^[\._]?(docs?|documentation|texts?|forms?)$"
+                icon="/docs.svg"/>
         <regex folderNames="domain,domains,.domain,_domain,.domains,_domains"
                name="Domain"
                folderColor="78909C"
@@ -974,15 +974,15 @@
                pattern="^[\._]?(envs?|environments?)$"
                icon="/env.svg"/>
         <regex
-            folderNames="error,errors,exception,exceptions,.error,_error,_errors,.exception,_exceptions,crash,.crashes,_crash"
-            name="Error"
-            folderColor="ef5350"
-            folderIconColor="ffcdd2"
-            priority="100"
-            iconType="FOLDER"
-            pattern="^[\._]?(errors?|exceptions?|crash(es)?)$"
-            icon="/error.svg"
-            defaultState="false"/>
+                folderNames="error,errors,exception,exceptions,.error,_error,_errors,.exception,_exceptions,crash,.crashes,_crash"
+                name="Error"
+                folderColor="ef5350"
+                folderIconColor="ffcdd2"
+                priority="100"
+                iconType="FOLDER"
+                pattern="^[\._]?(errors?|exceptions?|crash(es)?)$"
+                icon="/error.svg"
+                defaultState="false"/>
         <regex folderNames="eslint,.eslint,_eslint,eslint-config,.eslint-config,_eslint-config,eslint-plugin,.eslint-plugin,_eslint-plugin"
                name="ESLint"
                folderColor="5c6bc0"
@@ -1049,15 +1049,15 @@
                icon="/faq.svg"
                defaultState="false"/>
         <regex
-            folderNames="favorite,favorites,.favorite,_favorites,fav,favs,.fav,_favs,bookmark,bookmarks,.bookmark,_bookmarks"
-            name="Favorites"
-            folderColor="F06292"
-            folderIconColor="EBEBEB"
-            priority="100"
-            iconType="FOLDER"
-            pattern="^[\._]?(favorites?|favs?|bookmarks?)$"
-            icon="/favorites.svg"
-            defaultState="false"/>
+                folderNames="favorite,favorites,.favorite,_favorites,fav,favs,.fav,_favs,bookmark,bookmarks,.bookmark,_bookmarks"
+                name="Favorites"
+                folderColor="F06292"
+                folderIconColor="EBEBEB"
+                priority="100"
+                iconType="FOLDER"
+                pattern="^[\._]?(favorites?|favs?|bookmarks?)$"
+                icon="/favorites.svg"
+                defaultState="false"/>
         <regex folderNames="feature,features,feat,feats,.feature,_feat,_feats,.feats"
                name="Features"
                folderColor="ef5350"
@@ -1112,14 +1112,14 @@
                defaultState="false"/>
 
         <regex
-            folderNames="font,fonts,.fonts,_fonts,typeface,typefaces,.typeface,.typefaces,_typeface,glyph,glyphs,.glyph,.glyphs"
-            name="Fonts"
-            folderColor="607D8B"
-            folderIconColor="CFD8DC"
-            priority="100"
-            iconType="FOLDER"
-            pattern="^[\._]?(fonts?|typefaces?|glyphs?)$"
-            icon="/fonts.svg"/>
+                folderNames="font,fonts,.fonts,_fonts,typeface,typefaces,.typeface,.typefaces,_typeface,glyph,glyphs,.glyph,.glyphs"
+                name="Fonts"
+                folderColor="607D8B"
+                folderIconColor="CFD8DC"
+                priority="100"
+                iconType="FOLDER"
+                pattern="^[\._]?(fonts?|typefaces?|glyphs?)$"
+                icon="/fonts.svg"/>
         <regex folderNames="func,.func,funcs,_funcs,function,functions,service,services,lambda,lambdas,
         .functions,_functions,_lambda,.lambda,.services,_services,handler,handlers,.handlers,_handler,rpc,.rpc
         .rpcs,_rpc,.rpcs,proc,.proc,.procs,_proc,.procs,procedure,procedures,.procedure,.procedures,_procedure,composable,composables,.composable,.composables,_composable"
@@ -1289,14 +1289,14 @@
                pattern="^[\._]?(helpers?|help)$"
                icon="/helper.svg"/>
         <regex
-            folderNames="home,.home,_home,start,.start,_start,tuto,tutos,.tutos,_tuto,tutorial,_tutorial,tutorials,.tutorials,.landing,landing"
-            name="Home"
-            folderColor="8D6E63"
-            folderIconColor="BCAAA4"
-            priority="100"
-            iconType="FOLDER"
-            pattern="^[\._]?(home|start|tutos?|tutorials?|landing)$"
-            icon="/home.svg"/>
+                folderNames="home,.home,_home,start,.start,_start,tuto,tutos,.tutos,_tuto,tutorial,_tutorial,tutorials,.tutorials,.landing,landing"
+                name="Home"
+                folderColor="8D6E63"
+                folderIconColor="BCAAA4"
+                priority="100"
+                iconType="FOLDER"
+                pattern="^[\._]?(home|start|tutos?|tutorials?|landing)$"
+                icon="/home.svg"/>
         <regex folderNames="hooks,hook,triggers,trigger,.hook,_hooks,_triggers,composable,.composables,_composables"
                name="Hooks"
                folderColor="9575CD"
@@ -1738,14 +1738,14 @@
                icon="/metro.svg"
                defaultState="false"/>
         <regex
-            folderNames="middleware,middlewares,thunk,thunks,.middlewares,_middlewares,.thunk,_thunks,proxy,proxies,.proxy,_proxy"
-            name="Middlewares"
-            folderColor="5c6bc0"
-            folderIconColor="c5cae9"
-            priority="100"
-            iconType="FOLDER"
-            pattern="^[\._]?(middlewares?|thunks?|proxy|proxies)$"
-            icon="/middleware.svg"/>
+                folderNames="middleware,middlewares,thunk,thunks,.middlewares,_middlewares,.thunk,_thunks,proxy,proxies,.proxy,_proxy"
+                name="Middlewares"
+                folderColor="5c6bc0"
+                folderIconColor="c5cae9"
+                priority="100"
+                iconType="FOLDER"
+                pattern="^[\._]?(middlewares?|thunks?|proxy|proxies)$"
+                icon="/middleware.svg"/>
         <regex folderNames="mindsdb,.mindsdb,_mindsdb"
                name="MindsDB"
                folderColor="26A69A"
@@ -1926,14 +1926,14 @@
                pattern="^[\._]?openshift$"
                icon="/openshift.svg" defaultState="false"/>
         <regex
-            folderNames="order,orders,.order,_orders,.orders,list,lists,.list,_lists,.lists,listing,listings,.listing,_listings"
-            name="Orders"
-            folderColor="D65C75"
-            folderIconColor="EBEBEB"
-            priority="100"
-            iconType="FOLDER"
-            pattern="^[\._]?(orders?|lists?|listings?)$"
-            icon="/orders.svg"/>
+                folderNames="order,orders,.order,_orders,.orders,list,lists,.list,_lists,.lists,listing,listings,.listing,_listings"
+                name="Orders"
+                folderColor="D65C75"
+                folderIconColor="EBEBEB"
+                priority="100"
+                iconType="FOLDER"
+                pattern="^[\._]?(orders?|lists?|listings?)$"
+                icon="/orders.svg"/>
 
         <regex folderNames="other,misc,extra,extras,.other,_other,_misc,.misc,_extra,.extras,etc,.etc,_etc"
                name="Other"
@@ -2036,14 +2036,14 @@
                pattern="^[\._]?(pw|playwright)$"
                icon="/playwright.svg" defaultState="false"/>
         <regex
-            folderNames="plugin,plugins,mu-plugins,extension,extensions,.plugin,.plugins,_plugins,.extension,.extensions,.mod,_mods"
-            name="Plugins"
-            folderColor="00796B"
-            folderIconColor="80CBC4"
-            priority="100"
-            iconType="FOLDER"
-            pattern="^[\._]?((mu-)?plugins?|extensions?|mods?)$"
-            icon="/plugin.svg" defaultState="false"/>
+                folderNames="plugin,plugins,mu-plugins,extension,extensions,.plugin,.plugins,_plugins,.extension,.extensions,.mod,_mods"
+                name="Plugins"
+                folderColor="00796B"
+                folderIconColor="80CBC4"
+                priority="100"
+                iconType="FOLDER"
+                pattern="^[\._]?((mu-)?plugins?|extensions?|mods?)$"
+                icon="/plugin.svg" defaultState="false"/>
         <regex folderNames="post,posts,.post,_post,_posts"
                name="Posts"
                folderColor="D81B60"
@@ -2424,13 +2424,13 @@
                iconType="FOLDER"
                pattern="^[\._]?(server|http|requests?|staging|qa|backend)$"
                icon="/server.svg"/>
-        <regex folderNames=".serverless,serverless,_serverless,.infra,infrastructure,infra,_infrastructure"
+        <regex folderNames=".serverless,serverless,_serverless,.infra,infrastructure,infra,_infrastructure,.structures,_structures"
                name="Serverless"
                folderColor="757575"
                folderIconColor="FFEE58"
                priority="100"
                iconType="FOLDER"
-               pattern="^[\._]?(serverless|infra(structure)?)$"
+               pattern="^[\._]?(serverless|infra(structure)?|structures?)$"
                icon="/serverless.svg" defaultState="false"/>
         <regex folderNames="shader,.shader,shaders,.shaders,_shaders,glsl,.glsl,.hlsl,hlsl"
                name="Shader"
@@ -2468,14 +2468,14 @@
         />
 
         <regex
-            folderNames="src,source,sources,code,buildSrc,.src,_src,_source,.sources,.code,_code,.buildSrc,snippets,.snippets,.snippet"
-            name="Sources"
-            folderColor="5C6BC0"
-            folderIconColor="89ddff"
-            priority="100"
-            iconType="FOLDER"
-            pattern="^[\._]?(src|sources?|code|buildSrc|snippets?)$"
-            icon="/src.svg"/>
+                folderNames="src,source,sources,code,buildSrc,.src,_src,_source,.sources,.code,_code,.buildSrc,snippets,.snippets,.snippet"
+                name="Sources"
+                folderColor="5C6BC0"
+                folderIconColor="89ddff"
+                priority="100"
+                iconType="FOLDER"
+                pattern="^[\._]?(src|sources?|code|buildSrc|snippets?)$"
+                icon="/src.svg"/>
         <regex folderNames="sql,mysql,pgsql,maria,.sql,_sql,_mysql,.pgsql,.maria,_mariadb"
                name="SQL"
                folderColor="0288D1"
@@ -2597,14 +2597,14 @@
                pattern="^[\._]?(svelte(-kit)?|sapper)$"
                icon="/svelte.svg" defaultState="false"/>
         <regex
-            folderNames="svg,svgs,svgicon,svgicons,graphic,graphics,.svg,_svg,_svgicons,.graphics,_graphic,gfx,.gfx,_gfx,vectors,.vectors,_vectors,vector,.vector"
-            name="SVG"
-            folderColor="ffb300"
-            folderIconColor="fff9c4"
-            priority="100"
-            iconType="FOLDER"
-            pattern="^[\._]?(svgs?|svgicons?|graphics?|gfx|vectors?)$"
-            icon="/svg.svg"/>
+                folderNames="svg,svgs,svgicon,svgicons,graphic,graphics,.svg,_svg,_svgicons,.graphics,_graphic,gfx,.gfx,_gfx,vectors,.vectors,_vectors,vector,.vector"
+                name="SVG"
+                folderColor="ffb300"
+                folderIconColor="fff9c4"
+                priority="100"
+                iconType="FOLDER"
+                pattern="^[\._]?(svgs?|svgicons?|graphics?|gfx|vectors?)$"
+                icon="/svg.svg"/>
         <regex folderNames=".svn"
                name="SVN"
                folderColor="5C6BC0"
@@ -2724,14 +2724,14 @@
                pattern="^[\._]?(traits?)$"
                icon="/trait.svg" defaultState="false"/>
         <regex
-            folderNames="trash,bin,.trash,.bin,_trash,_bin,archived,deprecated,scrap,.archived,.deprecated,.scrap,_archived,_deprecated,_scrap"
-            name="Trash"
-            folderColor="F44336"
-            folderIconColor="FFCDD2"
-            priority="100"
-            iconType="FOLDER"
-            pattern="^[\._]?(trash|bin|archived|deprecated|scrap)$"
-            icon="/trash.svg" defaultState="false"/>
+                folderNames="trash,bin,.trash,.bin,_trash,_bin,archived,deprecated,scrap,.archived,.deprecated,.scrap,_archived,_deprecated,_scrap"
+                name="Trash"
+                folderColor="F44336"
+                folderIconColor="FFCDD2"
+                priority="100"
+                iconType="FOLDER"
+                pattern="^[\._]?(trash|bin|archived|deprecated|scrap)$"
+                icon="/trash.svg" defaultState="false"/>
         <regex folderNames="theme,themes,color,colors,scheme,schemes,skin,skins,.theme,_themes,.colors,_color,
         .schemes,_scheme,_skins,.skin,design,designs,.design,_designs"
                name="Themes"
