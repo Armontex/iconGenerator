@@ -34,6 +34,8 @@
     "yargs": "17.7.2"
   },
   "dependencies": {
+    "baseline-browser-mapping": "^2.11.9",
+    "caniuse-lite": "^1.0.30001806",
     "fs-extra": "^11.2.0"
   }
 }
