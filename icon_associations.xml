@@ -4928,6 +4928,15 @@
                iconType="FILE"
                pattern="^flask(app)?\.py$"
                icon="/icons/files/flask.svg"/>
+        <regex fileNames="*.fbs"
+               name="FlatBuffers"
+               iconColor="EE2349"
+               url="https://flatbuffers.dev/"
+               priority="100"
+               iconType="FILE"
+               pattern=".*\.fbs$"
+               icon="/icons/files/flatbuffers.svg"
+               defaultState="false"/>
         <regex fileNames=".flooignore,.floorc.json"
                name="Floobits"
                iconColor="f26c79"
