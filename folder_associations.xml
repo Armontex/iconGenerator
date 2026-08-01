@@ -965,6 +965,15 @@
                pattern="^[\._]?(empty|empties|stocks)$"
                icon="/empties.svg"
                defaultState="false"/>
+        <regex folderNames="encore.gen,.encore,_encore"
+               name="Encore"
+               folderColor="C2185B"
+               folderIconColor="F8BBD0"
+               priority="100"
+               iconType="FOLDER"
+               pattern="^(\.encore|_encore|encore\.gen)$"
+               icon="/encore.svg"
+               defaultState="false"/>
         <regex folderNames="env,envs,environment,environments,.env,_env,.environment,_environments"
                name="Env"
                folderColor="8BC34A"

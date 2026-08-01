@@ -4549,6 +4549,15 @@
                pattern=".*\.em(berscript)?$"
                icon="/icons/files/emberscript.svg"
                defaultState="false"/>
+        <regex fileNames="encore.app,encore.service.ts"
+               name="Encore"
+               iconColor="EF4DA0"
+               url="https://encore.dev/"
+               priority="100"
+               iconType="FILE"
+               pattern="^encore\.(app|service\.ts)$"
+               icon="/icons/files/encore.svg"
+               defaultState="false"/>
         <regex fileNames="*.ensime"
                name="Ensime"
                iconColor="e95f69"
