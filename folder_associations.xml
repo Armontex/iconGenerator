@@ -648,13 +648,13 @@
                pattern="^[\._]?(crates?)$"
                icon="/crates.svg"
                defaultState="false"/>
-        <regex folderNames="cron,scheduler,.cron,_cron,.scheduler,_scheduler"
+        <regex folderNames="cron,scheduler,.cron,_cron,.scheduler,_scheduler,cronjobs,.cronjobs,_cronjobs"
                name="Cron"
                folderColor="757575"
                folderIconColor="FFEE58"
                priority="100"
                iconType="FOLDER"
-               pattern="^[\._]?(cron|scheduler)$"
+               pattern="^[\._]?(cron(jobs?)?|scheduler)$"
                icon="/cron.svg"
                defaultState="false"/>
         <regex folderNames="crossplane,.crossplane,_crossplane"
