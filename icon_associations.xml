@@ -1858,6 +1858,15 @@
                pattern=".*\.(bc|dc(rc)?)$"
                icon="/icons/files/bc.svg"
                defaultState="false"/>
+        <regex fileNames="*.bcheck,.bcheck"
+               name="BCheck"
+               iconColor="5B4FFF"
+               url="https://portswigger.net/burp/documentation/scanner/bchecks"
+               priority="100"
+               iconType="FILE"
+               pattern=".*\.bcheck$"
+               icon="/icons/files/bcheck.svg"
+               defaultState="false"/>
         <regex fileNames="javaBean.java,javabean.java"
                name="Bean"
                iconColor="AB7967"
