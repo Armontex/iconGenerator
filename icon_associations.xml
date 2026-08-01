@@ -6972,6 +6972,15 @@
                pattern="(.*\.k$|kcl\.(mod|ya?ml)$)"
                icon="/icons/files/kcl.svg"
                defaultState="false"/>
+        <regex fileNames="*.kdl"
+               name="KDL"
+               iconColor="42A5F5"
+               url="https://kdl.dev/"
+               priority="100"
+               iconType="FILE"
+               pattern=".*\.kdl$"
+               icon="/icons/files/kdl.svg"
+               defaultState="false"/>
         <regex fileNames="kdu.config.js,kdu.config.ts,kdu.config.cjs,kocan.config.mjs,kocan.config.js,kocan.config.ts"
                name="KDU"
                iconColor="34a5dd"
