@@ -3818,6 +3818,14 @@
                pattern=".*\.dtsi?$"
                icon="/icons/files/devicetree.svg"
                defaultState="false"/>
+        <regex fileNames="devmoji.config.js,devmoji.config.mjs,devmoji.config.mts,devmoji.config.ts"
+               name="DevMoji"
+               iconColor="FFCC4D"
+               url="https://github.com/folke/devmoji"
+               priority="100"
+               iconType="FILE"
+               pattern="^devmoji\.config\.[cm]?[jt]s(on)?$"
+               icon="/icons/files/devmoji.svg"/>
         <regex fileNames="*.dhall"
                name="Dhall"
                iconColor="464646"
