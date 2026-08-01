@@ -1589,6 +1589,15 @@
                iconType="FOLDER"
                pattern="^[\._]?(liquibase|changelogs?)$"
                icon="/liquibase.svg"/>
+        <regex folderNames="livewire,.livewire,_livewire,livewire-hash,livewire-app"
+               name="Livewire"
+               folderColor="FB70A9"
+               folderIconColor="FCE4EC"
+               priority="100"
+               iconType="FOLDER"
+               pattern="^[\._]?livewire(-[a-zA-Z]+)?$"
+               icon="/livewire.svg"
+               defaultState="false"/>
         <regex folderNames="log,logs,.log,_logs"
                name="Logs"
                folderColor="607D8B"

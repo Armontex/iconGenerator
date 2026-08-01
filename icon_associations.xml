@@ -7480,6 +7480,15 @@
                url="https://livescript.net/"
                icon="/icons/files/livescript.svg"
                defaultState="false"/>
+        <regex fileNames="⚡*.blade.php"
+               name="Livewire"
+               iconColor="FB70A9"
+               url="https://livewire.laravel.com/"
+               priority="200"
+               iconType="FILE"
+               pattern="^⚡.*\.blade\.php$"
+               icon="/icons/files/livewire.svg"
+               defaultState="false"/>
         <regex fileNames="*.ll,.clang-format"
                name="LLVM"
                iconColor="93012c"
@@ -10515,7 +10524,7 @@
                icon="/icons/files/precommit.svg"/>
         <regex fileNames="preact.config.js,preact.config.ts,preact.config.mjs,preact.config.cjs"
                name="Preact"
-               iconColor="673ab8"
+               iconColor="9575CD"
                url="https://preactjs.com/"
                priority="100"
                iconType="FILE"
