@@ -2173,6 +2173,14 @@
                iconType="FOLDER"
                pattern="^[\._]?(r|rdata)$"
                icon="/r.svg" defaultState="false"/>
+        <regex folderNames="rabbitmq,.rabbitmq,_rabbitmq"
+               name="RabbitMQ"
+               folderColor="FF6600"
+               folderIconColor="FFE0B2"
+               priority="100"
+               iconType="FOLDER"
+               pattern="^[\._]?rabbitmq$"
+               icon="/rabbitmq.svg" defaultState="false"/>
         <regex folderNames="react,react_components,react-scripts,_react,.react,_react_components,.react-scripts,
         tsx,jsx,.jsx,_tsx"
                name="React"
