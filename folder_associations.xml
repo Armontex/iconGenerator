@@ -2062,6 +2062,15 @@
                pattern="^[\._]?(pocketbase|pb|pb_(data|migrations|public))$"
                icon="/pocketbase.svg"
                defaultState="false"/>
+        <regex folderNames="policy,policies,.policy,_policy,.policies,_policies"
+               name="Policies"
+               folderColor="607D8B"
+               folderIconColor="CFD8DC"
+               priority="100"
+               iconType="FOLDER"
+               pattern="^[\._]?polic(y|ies)$"
+               icon="/policies.svg"
+               defaultState="false"/>
         <regex folderNames="post,posts,.post,_post,_posts"
                name="Posts"
                folderColor="D81B60"
