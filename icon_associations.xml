@@ -7971,6 +7971,15 @@
                pattern="^metro\.config\.([cm]?js|ts|json)$"
                icon="/icons/files/metro.svg"
                defaultState="false"/>
+        <regex fileNames="mikro-orm.config.js,mikro-orm.config.ts,mikro-orm.config.cjs,mikro-orm.config.mjs,mikro-orm.config.json"
+               name="MikroOrm"
+               iconColor="39B898"
+               url="https://mikro-orm.io/"
+               priority="100"
+               iconType="FILE"
+               pattern="^mikro-orm\.config\.[cm]?[jt]s(on)?$"
+               icon="/icons/files/mikroorm.svg"
+               defaultState="false"/>
         <regex fileNames="mindsdb.js,mindsdb.ts,mindsdb.py,mindsdb.cjs,mindsdb.mjs"
                name="MindsDB"
                iconColor="26A69A"
