@@ -2053,6 +2053,15 @@
                 iconType="FOLDER"
                 pattern="^[\._]?((mu-)?plugins?|extensions?|mods?)$"
                 icon="/plugin.svg" defaultState="false"/>
+        <regex folderNames="pocketbase,.pocketbase,_pocketbase,pb,pb_data,pb_migrations,pb_public"
+               name="Pocketbase"
+               folderColor="0097A7"
+               folderIconColor="B2EBF2"
+               priority="100"
+               iconType="FOLDER"
+               pattern="^[\._]?(pocketbase|pb|pb_(data|migrations|public))$"
+               icon="/pocketbase.svg"
+               defaultState="false"/>
         <regex folderNames="post,posts,.post,_post,_posts"
                name="Posts"
                folderColor="D81B60"

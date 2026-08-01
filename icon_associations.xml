@@ -10408,6 +10408,15 @@
                iconType="FILE"
                pattern="^pnpmfile\.[cm]?[jt]s"
                icon="/icons/files/pnpmfile.svg"/>
+        <regex fileNames="pb_migrations/*.js,pb_migrations/*.cjs,pb_migrations/*.mjs"
+               name="Pocketbase"
+               iconColor="4DD0E1"
+               url="https://pocketbase.io/"
+               priority="50"
+               iconType="FILE"
+               pattern=".*/pb_migrations/.*\.[cm]?[jt]s$"
+               icon="/icons/files/pocketbase.svg"
+               defaultState="false"/>
         <regex fileNames="*.pod,*.pod6,*.p6l,*.nqp"
                name="Pod"
                iconColor="90A4AE"
