@@ -6385,6 +6385,15 @@
                iconType="FILE"
                pattern="^__init__\.py$"
                icon="/icons/files/indexpy.svg"/>
+        <regex fileNames="inflint.config.js,inflint.config.ts,.inflintrc,.inflintrc.yaml,.inflintrc.json"
+               name="Inflint"
+               iconColor="7C4DFF"
+               url="https://github.com/tal-rofe/Inflint"
+               priority="100"
+               iconType="FILE"
+               pattern="^(inflint\.config\.[cm]?[jt]s(on)?|\.inflintrc(\.(ya?ml|json|js|ts)))$"
+               icon="/icons/files/inflint.svg"
+               defaultState="false"/>
         <regex fileNames="*.xsn,*.xsf,*.xtp2,*.infopathxml"
                name="Infopath"
                iconColor="9C27B0"
